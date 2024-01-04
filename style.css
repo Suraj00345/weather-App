@@ -164,63 +164,63 @@
 }
 
 @media screen and (max-width: 480px) {
-  #heading {
+  #heading{
     font-size: 13px !important;
     font-weight: 400px !important;
-  }
- 
-  #form-container {
+    text-align: center;
+}
+
+#form-container{
     margin-top: 10px;
-  }
-  #form {
-    gap: 10px;
-  }
-  #form input {
-    width: 250px;
+}
+#form{
+    gap:10px;
+}
+#form input{
+    width: 200px;
     height: 40px;
     box-shadow: -2px -2px 3px #12062b;
-  }
-  #add-btn {
-    width: 70px;
-    height: 40px;
+
+}
+#add-btn{
+    width: 50px;
+    height: 55px;
     font-size: 12px;
-  }
+}
 
-  #city-weather-container {
-    width: 400px;
-    height: 400px;
-    margin: 20px;
-    overflow-y: scroll;
-  }
+#city-weather-container{
+    width: 350px;
+    margin-left: 5px;
+}
 
-  .weather-div {
+.weather-div{
     width: 95%;
     height: 190px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  #temp_deg {
+#temp_deg{
     font-size: 20px;
-  }
-  #city-name-p {
+}
+#city-name-p{
     font-size: 14px;
-  }
-  #extra-details {
-    gap: 5px;
-  }
-  #sun {
+}
+#extra-details{
+    gap:5px;
+}
+#sun{
     height: 50px;
     font-size: 12px;
-  }
-  #cloudiness {
+}
+#cloudiness{
     font-size: 10px;
-  }
+}
 
-  #wind-detail {
+#wind-detail{
     font-size: 12px;
-  }
-  #feels-like {
+}
+#feels-like{
     font-size: 12px;
-  }
+}
 }
