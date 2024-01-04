@@ -80,14 +80,14 @@
 .weather-div {
   width: 320px;
   height: 150px;
-  margin: 20px;
+  margin: 30px;
   background-image: url(./assets/Rectangle\ 1.png);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 15px;
   color: #fff;
-  padding: 10px;
+  
 }
 #content {
   width: 100%;
@@ -163,12 +163,14 @@
   display: none;
 }
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 480px) {
   #heading {
     font-size: 13px !important;
     font-weight: 400px !important;
   }
-
+  #container {
+    overflow-y: scroll;
+  }
   #form-container {
     margin-top: 10px;
   }
@@ -187,10 +189,9 @@
   }
 
   #city-weather-container {
-    width: fit-content;
-    height: fit-content;
-    margin: 10px;
-   padding-bottom: 60px;
+    width: 400px;
+    height: 300px;
+    margin: 50px;
   }
 
   .weather-div {
