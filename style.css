@@ -168,9 +168,7 @@
     font-size: 13px !important;
     font-weight: 400px !important;
   }
-  #container {
-    overflow-y: scroll;
-  }
+ 
   #form-container {
     margin-top: 10px;
   }
@@ -190,8 +188,8 @@
 
   #city-weather-container {
     width: 400px;
-    height: 300px;
-    margin: 50px;
+    height: 400px;
+    margin: 20px;
     overflow-y: scroll;
   }
 
