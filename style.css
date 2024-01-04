@@ -60,7 +60,7 @@
 }
 
 #city-weather-container {
-  width: 80%;
+  width: 100%;
   height: calc(100% - 190px);
   box-sizing: border-box;
   margin-left: auto;
